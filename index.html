@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ICU Command Center</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="app">
+  <aside>
+    <div class="brand"><div class="logo">+</div><div><b>ICU Command</b><span>Smart Bed Monitoring</span></div></div>
+    <nav class="nav" id="nav">
+      <a href="#/dashboard" data-r="dashboard"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>Dashboard</a>
+      <a href="#/patients" data-r="patients"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.2-5.5 6.5-5.5s5.9 1.900 6.500 5.500"/><path d="M16 4.500a3.500 3.500 0 010 7M18 14.800c2 .7 3.200 2.500 3.500 5.200"/></svg>Patients</a>
+      <a href="#/alerts" data-r="alerts"><svg viewBox="0 0 24 24"><path d="M6 9a6 6 0 1112 0c0 6 2.500 7.500 2.500 7.500h-17S6 15 6 9z"/><path d="M10 20a2 2 0 004 0"/></svg>Alerts<span class="badge" id="nb">0</span></a>
+      <a href="#/devices" data-r="devices"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="2"/><path d="M8 20h8M12 16v4"/></svg>Devices</a>
+    </nav>
+    <div class="side-foot"><b>Unit: Adult ICU</b>Shift: Day &middot; 8 nurses &middot; 3 doctors on duty<br>Demo data &mdash; simulated</div>
+  </aside>
+  <main id="main"></main>
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
